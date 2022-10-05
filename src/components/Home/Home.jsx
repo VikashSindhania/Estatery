@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Card from "../Card/Card";
 import { data } from "./data";
-import { IoConstructOutline } from "react-icons/io5";
 
 function Home() {
   const [search, setSearch] = useState("");
@@ -54,18 +53,19 @@ function Home() {
 
     if (filters.price !== null) {
       //500 - 1000
-      if (filters.price == 500)
+      if (filters.price === "500")
         arr = arr.filter((item) => item.cost >= 500 && item.cost <= 1000);
       // 1000 - 1500
-      if (filters.price == 1000)
+      if (filters.price === "1000")
         arr = arr.filter((item) => item.cost >= 1000 && item.cost <= 1500);
 
       //1500 - 2000
-      if (filters.price == 1500)
+      if (filters.price === "1500")
         arr = arr.filter((item) => item.cost >= 1500 && item.cost <= 2000);
 
       //2000+
-      if (filters.price == 2000) arr = arr.filter((item) => item.cost >= 2000);
+      if (filters.price === "2000")
+        arr = arr.filter((item) => item.cost >= 2000);
     }
 
     //property
