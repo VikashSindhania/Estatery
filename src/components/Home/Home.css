@@ -1,0 +1,58 @@
+.home-container {
+  width: 80%;
+  height: 100%;
+  background: rgba(204, 204, 204, 0.442);
+  margin: 20px auto;
+  padding: 25px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  margin-top: 25px;
+}
+
+select,
+option {
+  width: 15vw;
+  padding: 10px;
+  border: none;
+  /* border-radius: 15px; */
+  border-right: 2px solid rgba(128, 128, 128, 0.307);
+}
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-container > label {
+  color: #6e66ec;
+  font-weight: 400;
+  padding: 0px 15px;
+}
+
+.filter-container > button {
+  width: 120px;
+  height: 80%;
+  margin: auto;
+}
+
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}

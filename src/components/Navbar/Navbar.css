@@ -1,0 +1,40 @@
+.nav-container {
+  padding: 0px 10px;
+
+  width: 100%;
+}
+
+.nav-inner {
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin: 0px 10px;
+}
+
+.nav-link:hover {
+  color: #6e66ec !important;
+  background-color: #6f66ec1b !important;
+  border-radius: 12px;
+  transition: 0ms !important;
+}
+
+.nav-btn {
+  margin: 0px 10px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #6e66ec !important;
+}
+
+.btn-outline-primary {
+  color: #6e66ec !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #6e66ec !important;
+}
